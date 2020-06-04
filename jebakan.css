@@ -28,7 +28,13 @@
     font-size: 50px;
 }
 
-.dragonHP {
+#dragonHP {
+    color: #2f3e46;
+    font-family: "romanesco", Times;
+    font-size: 50px;
+}
+
+.heroHP {
     color: #2f3e46;
     font-family: "romanesco", Times;
     font-size: 50px;

@@ -11,88 +11,54 @@
 </head>
 
 <body class="jebakan">
+
     <p class="toppar">OH MY GOD, DRAGON HAS TRAP YOU!!</p>
 
     <div class="top"><img src="https://giffiles.alphacoders.com/132/13273.gif" alt="dragon" width="400" class="dragon">
-        <h3 class="dragonHP">FULL HEALTH</h3>
+        <h3 id="dragonHP"></h3>
         <div class="actions">
             <a href="index.html">
                 <h5>I Surrender and Dead</h5>
             </a>
-            <a href="#" onclick="myFunction()">
+            <a href="#" id='tutorial'>
                 <h5>I Dont Wanna Surrender Tutorial</h5>
-                <script>
-                    function myFunction() {
-                        alert("You have to pick one from many card, and only the right card to get you win");
-                    }
-                </script>
+
             </a>
         </div>
     </div>
 
-
+    <div id="Totaltimer">
+        <p class="heroHP">Timer</p>
+        <h1 class="heroHP" id="timer"></h1>
+    </div>
     <div id="trap">
         <div class="card 1">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
+
         </div>
         <div class="card 2">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
+
         </div>
         <div class="card 3">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
+
         </div>
         <div class="card 4">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
+
         </div>
         <div class="card 5">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
+
         </div>
         <div class="card 6">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
+
         </div>
         <div class="card 7">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
+
         </div>
         <div class="card 8">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
-        </div>
-        <div class="card 9">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
-        </div>
-        <div class="card 10">
-            <a src="tamat.html"> <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif"></a>
-        </div>
-        <div class="card">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
-        </div>
-        <div class="card">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
-        </div>
-        <div class="card">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
-        </div>
-        <div class="card">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
-        </div>
-        <div class="card">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
-        </div>
-        <div class="card">
-            <img src="https://i.ya-webdesign.com/images/pixel-knight-png-19.gif">
-        </div>
 
+        </div>
     </div>
 
-    <script type="text/javascript">
-        let bgm = new Audio()
-        bgm.src = 'dramatic-cinematic-ambient-by-musiclfiles-from-filmmusic-io.mp3'
-        bgm.loop = true
-        console.log(bgm);
-        bgm.play()
-
-        /*
-                                                                                                                
-                                                                                                            */
+    <script src="game.js">
     </script>
 </body>
 
