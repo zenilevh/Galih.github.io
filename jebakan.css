@@ -1,0 +1,84 @@
+.top {
+    text-align: center;
+}
+
+.dragon {
+    border: solid 10px rgb(255, 238, 239);
+    background-color: rgb(163, 87, 87);
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+.secondtrap {
+    font-family: "heboo";
+    color: #fffefe;
+}
+
+.toppar {
+    color: #902923;
+    font-family: "romanesco", Times;
+    font-size: 35px;
+    margin: 10px 0px;
+}
+
+.actions {
+    border: dotted 5px;
+    color: #2f3e46;
+    font-family: "romanesco", Times;
+    font-size: 50px;
+}
+
+.dragonHP {
+    color: #2f3e46;
+    font-family: "romanesco", Times;
+    font-size: 50px;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+}
+
+h5:hover {
+    color: rgba(54, 47, 47, 0.87);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(226, 209, 215);
+}
+
+.jebakan2 {
+    background-color: rgb(201, 65, 94);
+}
+
+#trap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 2px solid #4c2719;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 30px auto;
+    text-align: center;
+    width: 220px;
+    border-radius: 10%;
+}
+
+.card:hover {
+    background-color: rgb(245, 214, 221);
+    border-color: #4c2719;
+    cursor: pointer;
+}
+
+.card img {
+    padding-top: 40px;
+}
+
+* {
+    box-sizing: border-box;
+}
