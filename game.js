@@ -12,7 +12,6 @@ wrong.src = "denied.mp3";
 //Tutorial nya di pencet baru game nya di mulai
 let tutorialCLick = document.getElementById("tutorial");
 
-// function dragonDamage() {
 //     //bikin Dulu hp nya
 const dragonHP = document.getElementById("dragonHP");
 // variable asset
@@ -24,7 +23,7 @@ tutorialCLick.addEventListener("click", function() {
     countDownTimer();
     showCard();
     randomCard();
-    // bgm.play();
+    bgm.play();
     dragonHP.innerHTML = "FULL HEALTH";
     alert(
         "You have to pick one from many card, and only the right card to get you win"

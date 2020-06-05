@@ -65,37 +65,3 @@ function countDownTimer() {
         }
     }, 1000);
 }
-
-function heroGetDamage() {
-    // // If there is no more question in the array or we have used max counter, stop the game
-    // if (availableQuestions.length === 0 || questionCounter >= maxQuestions) {
-    // Clear interval of the timer
-    // clearInterval(timer);
-    //     // Save the score to local storage
-    //     localStorage.setItem("mostRecentScore", score);
-    //     // Go to the end page
-    //     return window.location.assign("end.html");
-    // }
-    // questionCounter++;
-    // // Display questionCounter in HUD
-    // progressText.innerText = `Question ${questionCounter}/${maxQuestions}`;
-    // // Update the progress bar
-    // progressBarFull.style.width = `${(questionCounter / maxQuestions) * 100}%`;
-    // // Set the counterTimer to 5s again
-    // questionTime = 5;
-    // // To make the questions randomize
-    // const questionIndex = Math.floor(Math.random() * availableQuestions.length);
-    // currentQuestion = availableQuestions[questionIndex];
-    // question.innerText = currentQuestion.question;
-    // // Get the choices for that selected question
-    // choices.forEach((choice) => {
-    //     const number = choice.dataset["number"];
-    //     choice.innerText = currentQuestion["choice" + number];
-    // });
-    // // Remove the selected question from the list of available questions array
-    // availableQuestions.splice(questionIndex, 1);
-    // // After loading the questions, then the player can start to give the answer
-    // acceptingAnswers = true;
-}
-
-startGame();
